@@ -1,6 +1,39 @@
-<pre><code>
+<DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<title>学习HTML实践网页</title>
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+
+
+
+
+<pre>
+<code>
+&lt;!--...--&gt;  html的注释通过&lt;!--...--&gt;标签来定义   <a href="annotation">实例</a>
 &lt;h1&gt;-&lt;h6&gt;   html的标题通过&lt;h1&gt;-&lt;h6&gt;标签来定义
-<br/>   
 &lt;p&gt;         html的段落通过&lt;p&gt;标签来定义
+&lt;a&gt;         html的超文本链接通过&lt;a&gt;标签来定义
+&lt;addr&gt;      html的缩写通过&lt;addr&gt;标签来定义
+
+
+
+
+
 </code>
 </pre>
+
+
+
+
+
+</body>
