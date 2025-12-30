@@ -1,9 +1,171 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0" version="29.2.9">
   <diagram name="第 1 页" id="Stxa9iRkFa9HAiK0i2SF">
-    <mxGraphModel>
+    <mxGraphModel dx="1451" dy="1014" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="9LeROVvOU4VivV0MmLXY-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="输入源代码文本" vertex="1">
+          <mxGeometry height="60" width="160" x="480" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9LeROVvOU4VivV0MmLXY-2" edge="1" parent="1" source="9LeROVvOU4VivV0MmLXY-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="450" as="sourcePoint" />
+            <mxPoint x="560" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9LeROVvOU4VivV0MmLXY-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="字符流输入" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="9LeROVvOU4VivV0MmLXY-4" edge="1" parent="1" source="9LeROVvOU4VivV0MmLXY-3" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="450" as="sourcePoint" />
+            <mxPoint x="560" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9LeROVvOU4VivV0MmLXY-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="词法分析器" vertex="1">
+          <mxGeometry height="60" width="160" x="480" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="9LeROVvOU4VivV0MmLXY-6" edge="1" parent="1" source="9LeROVvOU4VivV0MmLXY-5" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="450" as="sourcePoint" />
+            <mxPoint x="560" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9LeROVvOU4VivV0MmLXY-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="拆分，过滤" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="9LeROVvOU4VivV0MmLXY-8" edge="1" parent="1" source="9LeROVvOU4VivV0MmLXY-7" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="790" as="sourcePoint" />
+            <mxPoint x="560" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9LeROVvOU4VivV0MmLXY-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Token流" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="9LeROVvOU4VivV0MmLXY-10" edge="1" parent="1" source="9LeROVvOU4VivV0MmLXY-9" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="650" as="sourcePoint" />
+            <mxPoint x="560" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9LeROVvOU4VivV0MmLXY-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="语法分析器" vertex="1">
+          <mxGeometry height="60" width="160" x="480" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="9LeROVvOU4VivV0MmLXY-12" edge="1" parent="1" source="9LeROVvOU4VivV0MmLXY-11" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="770" as="sourcePoint" />
+            <mxPoint x="560" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9LeROVvOU4VivV0MmLXY-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;语法校验&lt;/div&gt;&lt;div&gt;结构化分析&lt;/div&gt;&lt;div&gt;生成层级模型&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="500" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="9LeROVvOU4VivV0MmLXY-14" edge="1" parent="1" source="9LeROVvOU4VivV0MmLXY-13" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="770" as="sourcePoint" />
+            <mxPoint x="560" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9LeROVvOU4VivV0MmLXY-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="抽象语法树" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="9LeROVvOU4VivV0MmLXY-17" edge="1" parent="1" source="9LeROVvOU4VivV0MmLXY-15" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="1110" as="sourcePoint" />
+            <mxPoint x="560" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9LeROVvOU4VivV0MmLXY-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="语义分析器" vertex="1">
+          <mxGeometry height="60" width="160" x="480" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="9LeROVvOU4VivV0MmLXY-19" edge="1" parent="1" source="9LeROVvOU4VivV0MmLXY-18" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="1110" as="sourcePoint" />
+            <mxPoint x="560" y="1150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9LeROVvOU4VivV0MmLXY-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;语义校验&lt;/div&gt;&lt;div&gt;信息补充&lt;/div&gt;&lt;div&gt;构建结构&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="120" x="500" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="9LeROVvOU4VivV0MmLXY-21" edge="1" parent="1" source="9LeROVvOU4VivV0MmLXY-20" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="1210" as="sourcePoint" />
+            <mxPoint x="560" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9LeROVvOU4VivV0MmLXY-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;带语义的抽象语法树&lt;/div&gt;&lt;div&gt;符号表&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="500" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="9LeROVvOU4VivV0MmLXY-23" edge="1" parent="1" source="9LeROVvOU4VivV0MmLXY-22" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="1390" as="sourcePoint" />
+            <mxPoint x="560" y="1410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9LeROVvOU4VivV0MmLXY-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="中间代码生成器" vertex="1">
+          <mxGeometry height="60" width="160" x="480" y="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="9LeROVvOU4VivV0MmLXY-25" edge="1" parent="1" source="9LeROVvOU4VivV0MmLXY-24" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="1390" as="sourcePoint" />
+            <mxPoint x="560" y="1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9LeROVvOU4VivV0MmLXY-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;结构转化&lt;/div&gt;&lt;div&gt;标准化表示&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="1520" as="geometry" />
+        </mxCell>
+        <mxCell id="9LeROVvOU4VivV0MmLXY-27" edge="1" parent="1" source="9LeROVvOU4VivV0MmLXY-26" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="9LeROVvOU4VivV0MmLXY-28" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="1470" as="sourcePoint" />
+            <mxPoint x="560" y="1640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9LeROVvOU4VivV0MmLXY-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="中间代码" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="1620" as="geometry" />
+        </mxCell>
+        <mxCell id="9LeROVvOU4VivV0MmLXY-29" edge="1" parent="1" source="9LeROVvOU4VivV0MmLXY-5" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="870" as="sourcePoint" />
+            <mxPoint x="1120" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9LeROVvOU4VivV0MmLXY-30" edge="1" parent="1" source="9LeROVvOU4VivV0MmLXY-11" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="870" as="sourcePoint" />
+            <mxPoint x="1120" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9LeROVvOU4VivV0MmLXY-31" edge="1" parent="1" source="9LeROVvOU4VivV0MmLXY-18" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="1060" as="sourcePoint" />
+            <mxPoint x="1120" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9LeROVvOU4VivV0MmLXY-32" edge="1" parent="1" source="9LeROVvOU4VivV0MmLXY-24" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="9LeROVvOU4VivV0MmLXY-33" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="1240" as="sourcePoint" />
+            <mxPoint x="1110" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9LeROVvOU4VivV0MmLXY-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="错误处理器" vertex="1">
+          <mxGeometry height="60" width="160" x="1120" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="9LeROVvOU4VivV0MmLXY-34" edge="1" parent="1" source="9LeROVvOU4VivV0MmLXY-33" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="9LeROVvOU4VivV0MmLXY-35" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="1240" as="sourcePoint" />
+            <mxPoint x="1360" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9LeROVvOU4VivV0MmLXY-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="错误报告" vertex="1">
+          <mxGeometry height="60" width="180" x="1340" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="9LeROVvOU4VivV0MmLXY-36" edge="1" parent="1" source="9LeROVvOU4VivV0MmLXY-22" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="9LeROVvOU4VivV0MmLXY-20" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="1340" as="sourcePoint" />
+            <mxPoint x="620" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
